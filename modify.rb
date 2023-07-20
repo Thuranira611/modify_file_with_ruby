@@ -2,7 +2,8 @@
 
 # puts file.read
 # file.close()
-file = File.open("employees.txt", "r")
+File.open("employees.txt", "r") do |file|
 
-puts file.readline()
-puts file.readline()
+12.times do puts file.readchar()
+end
+end
