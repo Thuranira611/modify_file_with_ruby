@@ -3,4 +3,3 @@ Harvy, product design
 John, marketing
 Mark, customer care
 Oscar, accounting
-Oscar, accounting

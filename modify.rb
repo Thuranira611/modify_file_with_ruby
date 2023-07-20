@@ -2,6 +2,6 @@
 
 # puts file.read
 # file.close()
-file = File.open("employees.txt", "a")
+file = File.open("employees.txt", "r")
 
-file.write("\nOscar, accounting");
+puts file.read.include? "Thuranira611"
