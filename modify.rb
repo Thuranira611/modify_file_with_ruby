@@ -4,4 +4,5 @@
 # file.close()
 file = File.open("employees.txt", "r")
 
-puts file.read.include? "Thuranira611"
+puts file.readline()
+puts file.readline()
